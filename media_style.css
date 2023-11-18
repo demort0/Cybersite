@@ -1,0 +1,261 @@
+@media (min-width: 1024px) {
+ .info{
+    width: 100%;
+    height: 1000px;
+    background-image: url(img/back_img\ 1920.jpg);
+    background-size:cover;
+    background-position-x: center;
+ }
+
+ .info_header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .info_header_logo{
+   margin: 0;
+   width: 40%;
+ }
+ .info_header_logo_img{
+   width: 296px;
+   height: 74px;
+ }
+ .info_header_network{
+   width: 40%;
+ }
+ .info_header_network_content_click svg{
+   width: 30px;
+   height: 30px;
+ }
+ .info_footer{
+  right: 10%;
+  width: 624px;
+  height: 369px;
+  background-size:cover;
+  border-top-left-radius: 165px;
+  border-bottom-right-radius: 105px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+  gap: 30px;
+  bottom: 0;
+ }
+ .info_footer_text{
+  font-size: 62px;
+  line-height: 63.3px;
+  text-align: start;
+  margin: 0;
+ }
+ .description{
+  width: 100%;
+ }
+ .description_block{
+  margin-left: 5%;
+ }
+ .description_title{
+  font-size: 62px;
+  line-height: 73.3px;
+  word-spacing: 20px;
+  max-width: 80%;
+ }
+ .description_text{
+  font-size: 18px;
+  line-height: 34px;
+  max-width: 80%;
+ }
+ .description_photo_container_1{
+  display: none;
+ }
+ .description_photo_container_2{
+  display: none;
+ }
+ .description_photo_container_1_1024_cont{
+  width: 460px;
+  display: block;
+ }
+ .description_photo_container_1_1024{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 40px;
+}
+.description_photo_container_1_1024_photo{
+  object-fit: fill;
+  
+}
+.description_photo_container_2_1024{
+  display: flex;
+  padding: 20px;
+}
+
+.action{
+  width: 100%;
+ 
+}
+.action_transit{
+  width: 100%;
+}
+.action_logo{
+  display: none;
+}
+ .action_logo_1024{
+  display: block;
+ }
+ 
+.action_photo{
+  display: none;
+}
+.action_main_block {
+  max-width: 460px;
+}
+.action_main_block_info_title{
+  font-size: 62px;
+  line-height: 63.3px;
+}
+.action_dop_block{
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.action_block_1024{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  
+}
+.action_main_block_info_text{
+  font-size: 18px;
+  line-height: 34px;
+}
+.action_main_block_info_text_1{
+  font-size: 18px;
+  line-height: 34px;
+}
+.action_main_block_form{
+  margin-bottom: 50px;
+}
+.action_main_block_form_name{
+  font-size: 18px;
+  line-height: 21.09px;
+}
+.action_main_block_form_checkbox{
+  margin-top: 10px;
+}
+.action_main_block_info{
+  margin-top: 80px;
+}
+.hp {
+  width: 100%;
+}
+.hp_transit{
+  width: 100%;
+}
+
+.hp_main_photo_screen{
+  display: none;
+}
+.hp_main_photo_screen_1024{
+  display: block;
+}
+.hp_main_photo_icons{
+  display: none;
+}
+.hp_main_photo_icons_1024{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hp_main_photo_icons_1024 svg{
+  margin: 30px 0;
+}
+.hp_main{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+
+}
+.hp_main_photo_screen_1024{
+  padding: 10px;
+}
+.hp_main_container_title{
+  font-size: 62px;
+  line-height: 63.3px;
+}
+.hp_main_container_text{
+  font-size: 18px;
+  line-height: 34px;
+}
+.hp_main_container_info_content_text{
+  font-size: 18px;
+  line-height: 21.09px;
+}
+.shop{
+  width: 100%;
+  display: flex;
+}
+.shop_container1{
+  background: url(img/cyber_disk_1024.jpg) no-repeat;
+  height: 717px;
+  width: 332px;
+  margin-right: 50px;
+  
+}
+.shop_container2{
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.shop_container2_title{
+  font-size: 62px;
+  line-height: 73.3px;
+}
+.shop_container2_title h3{
+  margin: 0;
+  margin-top: 30px;
+}
+.shop_container2_any_title{
+  font-size: 24px;
+  line-height: 28.13px;
+}
+.shop_container2_info_list_content_svg320{
+  display: none;
+}
+.shop_container2_info_list_content_svg1024{
+  display: block;
+}
+.shop_container2_info_list_content_txt{
+  font-size: 18px;
+  line-height: 21.09px;
+}
+.footer{
+  width: 100%;
+}
+.footer_container1{
+  display: flex;
+  
+}
+.footer_container1_logo{
+  display: none;
+}
+.footer_container1_logo_1024{
+  display: flex;
+  min-width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer_container1_info{
+  display: flex;
+  min-width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+.footer_container1_info_txt{
+  font-size: 18px;
+  line-height: 21.09px;
+}
+
+}

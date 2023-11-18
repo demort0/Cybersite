@@ -1,0 +1,76 @@
+@media (min-width: 1700px) {
+    .info_header{
+        justify-content: center;
+        align-items: center;
+    }
+    .info_header_network{
+        justify-content: center;
+        gap: 50px;
+        margin-top: 50px;
+    }
+    .info_header_logo{
+        margin-top: 50px;
+    }
+    .description_block{
+        margin-left: 10%;
+    }
+    .description_photo_container_1_1024_cont{
+        width: auto;
+    }
+    .description_photo_container_1_1024_photo{
+        width: 800px;
+      }
+
+    .action_dop_block{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .action_block_1024{
+        gap: 0;
+        justify-content: flex-start;  
+    }
+    .action_main_block{
+        margin-left: 17%;
+    }
+    .hp_main{
+        gap: 50px;
+        justify-content: flex-start;
+    }
+    .hp_main_photo{
+     margin-left: 17%;
+    }
+    .hp_main_photo_icons_1024{
+        flex-direction: row;
+        gap: 40px;
+    }
+    .hp_main_container{
+       margin: 0 auto;
+     
+    }
+    .hp_main_container_text{
+        max-width: 620px;
+    }
+    .hp_main_photo_screen_1024{
+    display: none;
+    }
+    .hp_main_photo_screen_1800{
+        display: block;
+        margin-top: 80px;
+        margin-bottom: 100px;
+    
+    }
+    .shop_container1{
+        background: url(img/cyber_disk_1600.jpg) no-repeat;
+        height: 717px;
+        width: 944px;
+        margin-right: 50px;
+    }
+    .shop_container2{
+        
+        margin: 0 100px;
+       
+      }
+  
+}

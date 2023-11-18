@@ -1,0 +1,25 @@
+@media (min-width:600px){
+.info{
+    background-image: url(img/back_img_600.png)
+}
+.description_photo_container_1{
+    display: none;
+   }
+.description_photo_container_2{
+    display: none;
+   }
+
+   .description_photo_container_1_1024{
+    display: block;
+   }
+   .description_photo_container_1_1024_cont{
+    width: 460px;
+    display: block;
+    margin: 0 auto;
+   }
+   .description_photo_container_1_1024_photo{
+    object-fit: cover;
+    width: 460px;
+    object-position: left;
+   }
+}
